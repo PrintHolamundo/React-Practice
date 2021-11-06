@@ -1,14 +1,7 @@
-const nombre = 'Juan';
-const apellido = 'Perez';
+// Funciones en JS 
 
-
-const nombreCompleto = `${nombre} ${apellido}`; // Template String
-
-console.log(nombreCompleto);
-
-
-function getSaludo(nombre) {
-  return `Hola ${nombre}`;
+function saludar(nombre) {
+    return(`Hola ${nombre}`);
 }
 
-console.log(`Este es un texto: ${getSaludo(nombre)}`);
+console.log(saludar());
